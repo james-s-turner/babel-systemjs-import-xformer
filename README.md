@@ -4,4 +4,5 @@ Removes systemjs custom imports e.g. ```import 'foo-style.css!``` so they don't 
 
 #Usage
 ```npm install babel-systemjs-import-xformer```
+
 ```babel --plugins babel-systemjs-import-xformer foo.js```
