@@ -1,0 +1,28 @@
+{
+  "name": "babel-systemjs-import-xformer",
+  "version": "1.0.0",
+  "description": "Removes systemjs custom imports e.g. import 'foo-style.css! so they don't break CommonJS module format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/james-s-turner/babel-systemjs-import-xformer.git"
+  },
+  "keywords": [
+    "babel",
+    "systemjs",
+    "transformer",
+    "import"
+  ],
+  "author": "James Turner <james.shaw.turner@gmail.com> (http://github.com/james-s-turner)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/james-s-turner/babel-systemjs-import-xformer/issues"
+  },
+  "homepage": "https://github.com/james-s-turner/babel-systemjs-import-xformer",
+  "dependencies": {
+    "babel": "^5.5.6"
+  }
+}
